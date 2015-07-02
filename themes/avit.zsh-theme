@@ -1,7 +1,7 @@
 # AVIT ZSH Theme
 
 PROMPT='
-$(_user_host)${_current_dir}[$(git_prompt_info)] ▶ '
+$(_user_host)${_current_dir}$(git_prompt_info) ▶ '
 
 #PROMPT='
 #$(_user_host)${_current_dir} $(git_prompt_info) $(_ruby_version)
